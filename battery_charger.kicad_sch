@@ -227,6 +227,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Battery"
 			(pin_numbers
 				(hide yes)
@@ -5412,6 +5519,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 87.63) (xy 34.29 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b12318a2-01e5-4a12-95d2-0da95371e226")
+	)
+	(wire
+		(pts
 			(xy 97.79 176.53) (xy 97.79 177.8)
 		)
 		(stroke
@@ -5832,6 +5949,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 102.87) (xy 34.29 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e525e99f-2a67-4957-a501-d923993067a3")
+	)
+	(wire
+		(pts
 			(xy 25.4 162.56) (xy 25.4 163.83)
 		)
 		(stroke
@@ -5859,6 +5986,16 @@
 			(type default)
 		)
 		(uuid "ecea9ea6-3cfb-4944-9c0a-f3f6824d0bd2")
+	)
+	(wire
+		(pts
+			(xy 30.48 95.25) (xy 34.29 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee7bd5c2-cf5c-419f-9c70-a5326670f119")
 	)
 	(wire
 		(pts
@@ -7093,6 +7230,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 57.15 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12a332c5-527d-4365-9c3d-dc3b0ceddeaf")
+		(property "Reference" "#PWR0128"
+			(at 57.15 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 57.15 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 57.15 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a0ec619-0a0f-4c62-8ed1-937a8242a299")
+		)
+		(instances
+			(project "dual_syringe_pump"
+				(path "/ee5c52c4-f8da-4392-ab5f-47f422475151/fc1da21c-517f-440a-b5ed-f955a8afc017"
+					(reference "#PWR0128")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 157.48 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7423,6 +7626,71 @@
 			(project ""
 				(path "/ee5c52c4-f8da-4392-ab5f-47f422475151/fc1da21c-517f-440a-b5ed-f955a8afc017"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 34.29 102.87 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25701929-95d1-4b64-8496-a50afb666386")
+		(property "Reference" "#PWR0126"
+			(at 30.48 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 39.37 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 34.29 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46b0adf6-0317-4374-b4e6-4d5fa753f92c")
+		)
+		(instances
+			(project "dual_syringe_pump"
+				(path "/ee5c52c4-f8da-4392-ab5f-47f422475151/fc1da21c-517f-440a-b5ed-f955a8afc017"
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -7985,6 +8253,72 @@
 			(project "dual_syringe_pump"
 				(path "/ee5c52c4-f8da-4392-ab5f-47f422475151/fc1da21c-517f-440a-b5ed-f955a8afc017"
 					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 57.15 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33156360-c2b2-4b66-a46e-0ab4b5bf4b67")
+		(property "Reference" "#PWR0127"
+			(at 57.15 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 57.15 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 57.15 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b872c4ce-3e89-4e00-a0ca-4eaa86468b3e")
+		)
+		(instances
+			(project "dual_syringe_pump"
+				(path "/ee5c52c4-f8da-4392-ab5f-47f422475151/fc1da21c-517f-440a-b5ed-f955a8afc017"
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -8764,6 +9098,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 30.48 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "468d2ef5-7ccd-475b-9752-095cd977e4cb")
+		(property "Reference" "TP6"
+			(at 27.178 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 27.178 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 30.48 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 30.48 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e7506f0-ff2e-4361-be73-fe680d442d29")
+		)
+		(instances
+			(project "dual_syringe_pump"
+				(path "/ee5c52c4-f8da-4392-ab5f-47f422475151/fc1da21c-517f-440a-b5ed-f955a8afc017"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "XL6009:XL6009")
 		(at 214.63 149.86 0)
 		(unit 1)
@@ -8959,6 +9358,136 @@
 			(project "dual_syringe_pump"
 				(path "/ee5c52c4-f8da-4392-ab5f-47f422475151/fc1da21c-517f-440a-b5ed-f955a8afc017"
 					(reference "VR2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 55.88 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4974c5f9-ca7d-409b-96e1-af77d1fe557f")
+		(property "Reference" "TP11"
+			(at 52.578 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 52.578 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 55.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 55.88 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40cea7f8-9be3-4c08-b839-bdba7c63887f")
+		)
+		(instances
+			(project "dual_syringe_pump"
+				(path "/ee5c52c4-f8da-4392-ab5f-47f422475151/fc1da21c-517f-440a-b5ed-f955a8afc017"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 57.15 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b39e028-999c-42da-b698-88351f89035a")
+		(property "Reference" "TP9"
+			(at 53.848 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 53.848 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 57.15 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 57.15 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8d7542c-4929-4592-8be4-7dbed6f04229")
+		)
+		(instances
+			(project "dual_syringe_pump"
+				(path "/ee5c52c4-f8da-4392-ab5f-47f422475151/fc1da21c-517f-440a-b5ed-f955a8afc017"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -10221,6 +10750,71 @@
 			(project "dual_syringe_pump"
 				(path "/ee5c52c4-f8da-4392-ab5f-47f422475151/fc1da21c-517f-440a-b5ed-f955a8afc017"
 					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 57.15 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bba97b9-b4c3-4377-9ccf-b002fdaf2014")
+		(property "Reference" "TP10"
+			(at 53.848 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 53.848 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 57.15 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 57.15 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24b5bbb8-db4d-4cfd-83d0-3fbaf8ec7261")
+		)
+		(instances
+			(project "dual_syringe_pump"
+				(path "/ee5c52c4-f8da-4392-ab5f-47f422475151/fc1da21c-517f-440a-b5ed-f955a8afc017"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -11949,6 +12543,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 34.29 87.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93a94fd2-c145-4ce1-bde2-d8e361bfa3ac")
+		(property "Reference" "#PWR0124"
+			(at 30.48 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V_1"
+			(at 38.1 87.6299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 34.29 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2343da26-a615-403e-bca0-e61d0e3a5a5d")
+		)
+		(instances
+			(project "dual_syringe_pump"
+				(path "/ee5c52c4-f8da-4392-ab5f-47f422475151/fc1da21c-517f-440a-b5ed-f955a8afc017"
+					(reference "#PWR0124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 109.22 172.72 0)
 		(unit 1)
@@ -12280,6 +12941,71 @@
 			(project "dual_syringe_pump"
 				(path "/ee5c52c4-f8da-4392-ab5f-47f422475151/fc1da21c-517f-440a-b5ed-f955a8afc017"
 					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 30.48 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ff7be81-85c2-46cb-946e-606e748abf61")
+		(property "Reference" "TP8"
+			(at 27.178 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 27.178 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 30.48 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 30.48 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b5f7b4a-a350-47b2-ab86-7365f3b0e3f7")
+		)
+		(instances
+			(project "dual_syringe_pump"
+				(path "/ee5c52c4-f8da-4392-ab5f-47f422475151/fc1da21c-517f-440a-b5ed-f955a8afc017"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -13032,6 +13758,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 55.88 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5e67079-1030-4764-a19a-5700eae38489")
+		(property "Reference" "#PWR0129"
+			(at 55.88 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.88 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dbf9d023-6226-4fed-b1d3-39c78cf860ac")
+		)
+		(instances
+			(project "dual_syringe_pump"
+				(path "/ee5c52c4-f8da-4392-ab5f-47f422475151/fc1da21c-517f-440a-b5ed-f955a8afc017"
+					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 53.34 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13635,6 +14427,71 @@
 			(project "dual_syringe_pump"
 				(path "/ee5c52c4-f8da-4392-ab5f-47f422475151/fc1da21c-517f-440a-b5ed-f955a8afc017"
 					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 34.29 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cdcd0252-fa59-42e6-85cc-0f5a16498f7d")
+		(property "Reference" "#PWR0125"
+			(at 30.48 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V_2"
+			(at 42.164 94.742 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 34.29 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c7ea277-df5d-4366-82b5-c3dfd18c3087")
+		)
+		(instances
+			(project "dual_syringe_pump"
+				(path "/ee5c52c4-f8da-4392-ab5f-47f422475151/fc1da21c-517f-440a-b5ed-f955a8afc017"
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -14938,6 +15795,71 @@
 			(project "dual_syringe_pump"
 				(path "/ee5c52c4-f8da-4392-ab5f-47f422475151/fc1da21c-517f-440a-b5ed-f955a8afc017"
 					(reference "BAT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 30.48 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eedea608-863d-4732-95e8-1e3b03594699")
+		(property "Reference" "TP7"
+			(at 27.178 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 27.178 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 30.48 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 30.48 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e90874e-fcbc-49e8-ba2a-b8d7a8122f34")
+		)
+		(instances
+			(project "dual_syringe_pump"
+				(path "/ee5c52c4-f8da-4392-ab5f-47f422475151/fc1da21c-517f-440a-b5ed-f955a8afc017"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
