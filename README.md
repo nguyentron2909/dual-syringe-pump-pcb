@@ -25,6 +25,9 @@ High-performance motor control featuring:
 * **Communication:** UART interface mapped to the ESP32 for advanced configuration (StealthChop, StallGuard, dynamic current limits).
 * **Optimization:** Support for hardware-level current sensing. *(Note: RS resistors should be desoldered from the current sensing module for better performance, as noted in the schematic).*
 
+![Control schematics](pics/sche_main_ver_1.png)
+![Power circuits](pics/sche_power_ver_1.png)
+![drivers](pics/sche_driver_ver_1.png)
 ---
 
 ## 📋 Key Specifications
@@ -40,12 +43,8 @@ High-performance motor control featuring:
 
 ---
 
-## 📂 Project Structure
-
-* `/Power_Circuits`: Battery charging, buck/boost regulation, and power distribution.
-* `/MCU_Logic`: ESP32 pinout, USB-Serial bridge, and peripheral headers.
-* `/Stepper_Drivers`: Dual TMC2209 implementation with UART and DIAG feedback.
-
+## 📂 PCB layout
+![PCB layout](pics/pbc_ver_1.png)
 ---
 
 ## 📝 Design Notes
