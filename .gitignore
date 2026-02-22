@@ -1,0 +1,24 @@
+# KiCad backups and auto-saves
+*-backups/
+*.bak
+*.bck
+*~
+_autosave-*
+*.tmp
+
+# KiCad user-specific project settings (window positions, active layers, etc.)
+*.kicad_prl
+
+# Footprint info cache
+fp-info-cache
+
+# Auto-router files (if you use Freerouting)
+*.dsn
+*.ses
+
+# Outputs (Optional: you may want to track these, but usually they are generated)
+*.gbr
+*.drl
+*.pdf
+*.svg
+*.step
