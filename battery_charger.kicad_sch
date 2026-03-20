@@ -8063,7 +8063,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
 			(at 191.135 59.055 0)
 			(effects
 				(font
@@ -16846,7 +16846,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
 			(at 254 39.116 90)
 			(effects
 				(font

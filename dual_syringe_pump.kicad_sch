@@ -6086,16 +6086,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 24.13) (xy 77.47 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d40b435-2066-4fd3-b3dd-2355e6f9df37")
-	)
-	(wire
-		(pts
 			(xy 242.57 139.7) (xy 246.38 139.7)
 		)
 		(stroke
@@ -6326,7 +6316,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 26.67) (xy 50.8 26.67)
+			(xy 50.8 26.67) (xy 76.2 26.67)
 		)
 		(stroke
 			(width 0)
@@ -6683,16 +6673,6 @@
 			(type default)
 		)
 		(uuid "9924c4e7-4bc4-4f91-86b2-6d6f5a9220ac")
-	)
-	(wire
-		(pts
-			(xy 68.58 24.13) (xy 68.58 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ae4bc42-f9a7-44c7-a0c2-967888ecd1b3")
 	)
 	(wire
 		(pts
@@ -7285,7 +7265,7 @@
 		(uuid "1507770d-90b0-41c7-be13-c4bbcd6dda49")
 	)
 	(label "esp32_CLK"
-		(at 76.2 24.13 180)
+		(at 76.2 26.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12212,7 +12192,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 77.47 24.13 270)
+		(at 76.2 26.67 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12220,7 +12200,7 @@
 		(dnp no)
 		(uuid "ab2889b6-7ca2-4156-893f-7a2b9cb77aad")
 		(property "Reference" "TP1"
-			(at 82.55 23.876 90)
+			(at 81.28 26.416 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12229,7 +12209,7 @@
 			)
 		)
 		(property "Value" "clock"
-			(at 82.55 25.3999 90)
+			(at 81.28 27.9399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12238,7 +12218,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 77.47 29.21 0)
+			(at 76.2 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12247,7 +12227,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 29.21 0)
+			(at 76.2 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12256,7 +12236,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 77.47 24.13 0)
+			(at 76.2 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
